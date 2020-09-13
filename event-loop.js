@@ -19,4 +19,4 @@ fs.readFile('test.txt', ((err, data) => {
         console.log("immediate timer 2 is finished")
     })
 }))
-console.log('hello from top level code !');
+console.log('hello from top level code execution !');
